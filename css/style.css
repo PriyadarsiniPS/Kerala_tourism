@@ -87,6 +87,26 @@
   .login input{
     height: 1.5em;
   }
+  .login p {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  #emailError {
+    color: red;
+  }
+  
+  #email:invalid {
+    border: 1px solid red;
+  }
+  #passwordError {
+    color: red;
+  }
+  
+  #pwd:invalid {
+    border: 1px solid red;
+  }
+  
   .login #login-button{
     width: 100%;
     height: 1.8em;
